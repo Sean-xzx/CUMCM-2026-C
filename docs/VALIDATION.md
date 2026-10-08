@@ -62,3 +62,17 @@ GitHub CI intentionally uses synthetic data and available unit tests, not privat
 GitHub自动检查使用合成数据与可运行单元测试，不使用私人官方资源。远程发布、干净克隆和CI状态在交付时另行核实，不由本地通过推定远程成功。
 
 The added negative test changes an exported SOC endpoint to 0 kWh and confirms that verification rejects it. / 新增错误输入测试把输出SOC端点改为0 kWh，确认校验拒绝越界结果。
+
+## Publication and clean-clone evidence / 发布与干净副本证据
+
+The first published commit, `4a02990b712b7eb04e648a4dc154d28663f0e13e`, reached the public `Sean-xzx/CUMCM-2026-C` repository on `main`. A fresh Git clone contained all 112 tracked files with exactly matching local/remote bytes. GitHub-rendered English and Chinese README HTML contained both mutual links and the expected figure path. No project-level open-source license was added, following the owner's explicit all-rights-reserved choice.
+
+首个提交已到达指定账户的公开仓库和main；重新克隆得到112份文件，与本地字节一致。GitHub渲染后的双语README互链和图片路径存在。按所有者选择保留所有权利，未添加开源许可证。
+
+A second new virtual environment in the remote clone installed the full lock using `--no-cache-dir`, passed `pip check`, source/documentation checks, **30 tests with 4 explicit skips (36.65 seconds)**, the real-solver synthetic demo, and Q1 reproduction against the external official bundle. The clean clone returned the same demo cost/SOC. Q2–Q4 annual runs were verified in the first new environment; they were not repeated in the remote clone. No global site packages, copied environments or pip cache were used for this clean installation.
+
+远程克隆中新建第二个虚拟环境，不使用pip缓存安装完整锁；依赖、原件、文档检查及30项测试通过，4项明确跳过（36.65秒），合成示例和外部官方附件第一问复现通过。第二至四问全年流程在第一套新环境验证，未在远程副本再算一次；没有复制旧环境或使用全局包。
+
+[The first GitHub Actions run](https://github.com/Sean-xzx/CUMCM-2026-C/actions/runs/37739450654) passed all steps on Windows/Python **3.12.10**, including 30 passed / 4 skipped tests (14.61 seconds), source/doc checks and the standalone demo. This provides additional demo/unit evidence for 3.12.10, not annual-reproduction evidence for that patch version. Delivery reports the final documentation commit and its separate CI result.
+
+首轮GitHub自动检查全部通过：Windows/Python 3.12.10，测试30通过、4跳过（14.61秒），原件/文档检查和示例通过。该证据不等于3.12.10已验证全年重算；交付另列最终文档提交和对应CI结果。

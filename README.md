@@ -39,7 +39,7 @@ See [validation evidence](docs/VALIDATION.md) for what was actually rerun and th
 
 ## Environment and quick start
 
-Validated locally: Windows, CPython **3.12.14**, CPU, in a new virtual environment. Other operating systems and Python versions are not claimed as validated. Git and a working Python 3.12 installation are required. No account, API key, GPU, database, or paid service is required to run the demo or models. Package installation needs internet access; model execution is offline once dependencies and resources are present.
+Validated full numerical reproduction and clean-clone checks: Windows, CPython **3.12.14**, CPU, in new virtual environments. GitHub Actions also passed the synthetic demo and available unit tests on Windows/Python **3.12.10**; it did not run the official-data annual models. Other operating systems and Python versions are unverified. Git and a working Python 3.12 installation are required. No account, API key, GPU, database, or paid service is required to run the demo or models. Package installation needs internet access; model execution is offline once dependencies and resources are present.
 
 PowerShell, from a location where you want the repository:
 
