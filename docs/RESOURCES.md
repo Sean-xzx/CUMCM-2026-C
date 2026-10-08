@@ -6,9 +6,29 @@ The local team archive identifies its input as CUMCM 2026 Problem C. The competi
 
 队伍本地归档把输入标为2026国赛C题，赛事网站为上述链接。本次没有确认该附件包的具体公共下载入口和再分发许可。请从组织方或队伍合法副本取得相同附件；取得条件以发布方为准，不承诺公开可下载或免费，不代用户购买。
 
-`data/resource-manifest.json` records nine original Excel files with exact byte sizes and SHA-256. The four inputs contain typical-day load/PV/prices, annual actual load/PV, hourly **PV power forecasts**, and annual prices. The five templates define output sheets. Put them under the layout in the README or pass an external directory. `check-resources` validates all nine before reproduction; converted CSVs are generated from this verified bundle inside `runs/`.
+`data/resource-manifest.json` records nine original Excel files with exact byte sizes and SHA-256. The four inputs contain typical-day load/PV/prices, annual actual load/PV, hourly **PV power forecasts**, and annual prices. The five templates define output sheets. Put them under the layout below or pass an external directory. `check-resources` validates all nine before reproduction; converted CSVs are generated from this verified bundle inside `runs/`.
 
 资源清单记录四份原输入及五个结果模板的大小和哈希。附件3是小时级光伏功率预报。统一入口先检查九个哈希，再在 `runs/` 中生成所需CSV；不改原Excel。
+
+Required layout / 所需目录（`--data-dir` may point to another directory / 可指定其他目录）:
+
+```text
+data/official/
+  附件1.xlsx
+  附件2.xlsx
+  附件3.xlsx
+  附件4.xlsx
+  附件5/
+    result1.xlsx
+    result2.xlsx
+    result3.xlsx
+    result4-2.xlsx
+    result4-3.xlsx
+```
+
+Quote paths containing spaces. Missing/changed files fail before reproduction. Generated input CSVs and new results stay in ignored `runs/`; input workbooks and committed references remain untouched. No account, API key, GPU, database or paid service is required by the models. Original Chinese plots may require a CJK font.
+
+路径含空格时加引号；资源缺失或改变会在复现前报错。新CSV和结果写入忽略的`runs/`，不覆盖输入或参考表。模型不需要账号、API密钥、GPU、数据库或付费服务；原中文绘图可能需要CJK字体。
 
 Times denote interval ends: `2025-02-01 00:00` belongs to January 31's last ten minutes. One year's data has 365×144 slots. Forecast release timestamps remain distinct from target timestamps; never deduplicate multiple releases merely by target hour.
 
