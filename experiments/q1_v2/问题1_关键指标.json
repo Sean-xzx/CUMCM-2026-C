@@ -1,0 +1,95 @@
+{
+  "solver_status": "Optimal",
+  "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "periods": 144,
+  "total_cost_yuan": 35126.94858928964,
+  "total_purchase_q_kwh": 59482.69899835391,
+  "q_to_load_kwh": 46801.58116502057,
+  "q_to_storage_kwh": 12681.117833333332,
+  "total_load_kwh": 111024.8081,
+  "total_pv_available_kwh": 55482.835666666666,
+  "total_pv_used_kwh": 55482.835666666666,
+  "pv_curtailed_kwh": 0.0,
+  "total_charge_kwh": 20740.66613168725,
+  "total_discharge_kwh": 16799.939566666668,
+  "soc_initial_kwh": 6000.0,
+  "soc_terminal_kwh": 6000.0,
+  "soc_min_observed_kwh": 1200.0,
+  "soc_max_observed_kwh": 10800.0,
+  "no_storage_baseline_cost_yuan": 48052.04659084666,
+  "cost_saving_vs_no_storage_yuan": 12925.098001557017,
+  "cost_saving_rate": 0.26898121762870125,
+  "intervals_with_both_charge_and_discharge": 0,
+  "specified_intervals": [
+    {
+      "时间段": "10:00-10:10",
+      "购电量_kWh": 0.0,
+      "时段购电费_元": 0.0
+    },
+    {
+      "时间段": "12:00-12:10",
+      "购电量_kWh": 480.4124499999999,
+      "时段购电费_元": 211.90993169499995
+    },
+    {
+      "时间段": "14:00-14:10",
+      "购电量_kWh": 0.0,
+      "时段购电费_元": 0.0
+    },
+    {
+      "时间段": "16:00-16:10",
+      "购电量_kWh": 445.4316500000001,
+      "时段购电费_元": 368.41651771500005
+    },
+    {
+      "时间段": "18:00-18:10",
+      "购电量_kWh": 531.8940499999999,
+      "时段购电费_元": 668.1121162049999
+    },
+    {
+      "时间段": "20:00-20:10",
+      "购电量_kWh": 0.0,
+      "时段购电费_元": 0.0
+    }
+  ],
+  "four_hour_summary": [
+    {
+      "时间段": "00:00-04:00",
+      "充电量_kWh": 4499.999999999999,
+      "放电量_kWh": 0.0
+    },
+    {
+      "时间段": "04:00-08:00",
+      "充电量_kWh": 833.3333333333333,
+      "放电量_kWh": 6365.8412
+    },
+    {
+      "时间段": "08:00-12:00",
+      "充电量_kWh": 4787.964288065848,
+      "放电量_kWh": 1702.9969833333334
+    },
+    {
+      "时间段": "12:00-16:00",
+      "充电量_kWh": 5286.0351769547315,
+      "放电量_kWh": 91.1013833333335
+    },
+    {
+      "时间段": "16:00-20:00",
+      "充电量_kWh": 0.0,
+      "放电量_kWh": 5780.1318833333335
+    },
+    {
+      "时间段": "20:00-24:00",
+      "充电量_kWh": 5333.333333333332,
+      "放电量_kWh": 2859.8681166666665
+    }
+  ],
+  "validation": {
+    "max_shortage_kwh": 1.1368683772161603e-13,
+    "max_supply_surplus_kwh": 1.1368683772161603e-13,
+    "max_pv_excess_kwh": 0.0,
+    "max_throughput_excess_kwh": 0.0,
+    "max_state_residual_kwh": 9.094947017729282e-13,
+    "terminal_soc_residual_kwh": 0.0
+  }
+}

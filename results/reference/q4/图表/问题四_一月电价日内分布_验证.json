@@ -1,0 +1,22 @@
+{
+  "input_shape": [
+    31,
+    144
+  ],
+  "days": 31,
+  "slots_per_day": 144,
+  "min_yuan_per_kWh": 0.2432,
+  "max_yuan_per_kWh": 1.6401,
+  "mean_yuan_per_kWh": 0.8596107750896058,
+  "font": "Microsoft YaHei",
+  "png": "C:\\Users\\12055\\Desktop\\第四问预测+优化\\图表\\问题四_一月电价日内分布.png",
+  "svg": "C:\\Users\\12055\\Desktop\\第四问预测+优化\\图表\\问题四_一月电价日内分布.svg",
+  "typed_png": "C:\\Users\\12055\\Desktop\\第四问预测+优化\\图表\\问题四_一月电价分类型日内分布.png",
+  "typed_svg": "C:\\Users\\12055\\Desktop\\第四问预测+优化\\图表\\问题四_一月电价分类型日内分布.svg",
+  "high_load_type_days": 22,
+  "low_load_type_days": 9,
+  "high_load_type_daily_mean_price_cv": 0.011956622308413677,
+  "low_load_type_daily_mean_price_cv": 0.01620326662375534,
+  "price_model": "最近8个同负荷类型日、同目标时段的有限窗EW基线（decay=0.8）+滚动Ridge修正（alpha=1）",
+  "terminology": "严格区分时称EW；它不是递归、无限记忆的EWMA。"
+}

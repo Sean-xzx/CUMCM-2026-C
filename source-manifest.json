@@ -1,0 +1,566 @@
+[
+  {
+    "path": "src/q1/build_result1.py",
+    "original_path": "赛中文件/国赛依托/第一问预测+优化/build_result1.py",
+    "sha256": "7753ce5f4b16d5e9ed2533524ec4e5707d1870780652de1e35e3f238137f1d6d",
+    "role": "core"
+  },
+  {
+    "path": "results/reference/q1/result1_验证.json",
+    "original_path": "赛中文件/国赛依托/第一问预测+优化/result1_验证.json",
+    "sha256": "a88fb6be59cd7938197bdf6958587f60067cdc700228947db93acd2b50ca919d",
+    "role": "reference_output"
+  },
+  {
+    "path": "src/q1/solve_q1.py",
+    "original_path": "赛中文件/国赛依托/第一问预测+优化/solve_q1.py",
+    "sha256": "3affcd5bf6e2bfe586aa2c19034e90fe9d5d06b73aa99793c1fa6f7fd8101683",
+    "role": "core"
+  },
+  {
+    "path": "src/q1/test_solve_q1.py",
+    "original_path": "赛中文件/国赛依托/第一问预测+优化/test_solve_q1.py",
+    "sha256": "61bc917be4b17c51ca240c46c0bda9da97a4e7c47d1181a7e3610bdeb200ba5c",
+    "role": "core"
+  },
+  {
+    "path": "results/reference/q2/2至12月_CCP费用对比.csv",
+    "original_path": "赛中文件/国赛依托/第二问预测&优化/2至12月_CCP费用对比.csv",
+    "sha256": "040991a98702117d83dc357b979b46fa602dd298aa4f6caa16f2064e5d819a17",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q2/2至12月_事后模型评价.csv",
+    "original_path": "赛中文件/国赛依托/第二问预测&优化/2至12月_事后模型评价.csv",
+    "sha256": "d6e7024df181c241cd649da533fc4c6d55729d7e749b1e7db89cc382025c794d",
+    "role": "reference_output"
+  },
+  {
+    "path": "src/q2/build_notebook.py",
+    "original_path": "赛中文件/国赛依托/第二问预测&优化/build_notebook.py",
+    "sha256": "f1b943259e43316a5aaa7f4cad0bc48a9e8b640e7de017b7a6330f1efd84c582",
+    "role": "core"
+  },
+  {
+    "path": "src/q2/q2_pipeline.py",
+    "original_path": "赛中文件/国赛依托/第二问预测&优化/q2_pipeline.py",
+    "sha256": "b245cc0617580ec5be1a7c76a4ad79299bb958700fe540ad4dd4885c4fd33104",
+    "role": "core"
+  },
+  {
+    "path": "docs/original/q2/README.md",
+    "original_path": "赛中文件/国赛依托/第二问预测&优化/README.md",
+    "sha256": "c9e80a6d585b31f5bc5bc9fedc798f1cdfd1fe1889d5f0db87e80262deb36a7f",
+    "role": "original_method_note"
+  },
+  {
+    "path": "results/reference/q2/一月EW_EWMA净负荷残差分布.png",
+    "original_path": "赛中文件/国赛依托/第二问预测&优化/一月EW_EWMA净负荷残差分布.png",
+    "sha256": "f9783befdbc7802d589da95ae82e3d18db6e0d8150591fcb9d606256e9a1c535",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q2/一月模型评价.csv",
+    "original_path": "赛中文件/国赛依托/第二问预测&优化/一月模型评价.csv",
+    "sha256": "ceb6d80476b2b48cf937112b64acad8fbda694cb14f80589f0d40f3138bd147b",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q2/数据质量摘要.csv",
+    "original_path": "赛中文件/国赛依托/第二问预测&优化/数据质量摘要.csv",
+    "sha256": "e43ef4e90d7f78ccf45fe10c945ccc3b0742f90b50e871847452d20757f87441",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q2/模型评价与费用对比.png",
+    "original_path": "赛中文件/国赛依托/第二问预测&优化/模型评价与费用对比.png",
+    "sha256": "94dbda6efe7182d5db1f1019c5162328f04b92fddeaa3b3fa1dec6804685a409",
+    "role": "reference_output"
+  },
+  {
+    "path": "docs/original/q2/问题二_论文建模思路.md",
+    "original_path": "赛中文件/国赛依托/第二问预测&优化/问题二_论文建模思路.md",
+    "sha256": "7686cc41da5ced57e391d8b57aaa7a4ce59d1f22542df36ed12cc4e306875a53",
+    "role": "original_method_note"
+  },
+  {
+    "path": "src/q2/问题二_逐日滚动预测与CCP优化.ipynb",
+    "original_path": "赛中文件/国赛依托/第二问预测&优化/问题二_逐日滚动预测与CCP优化.ipynb",
+    "sha256": "5e8eb2cfa1021f8847670af46a1cca40882f3fce294296fa3e3cdf09993e4a4f",
+    "role": "core"
+  },
+  {
+    "path": "src/q2/tests/test_q2_pipeline.py",
+    "original_path": "赛中文件/国赛依托/第二问预测&优化/tests/test_q2_pipeline.py",
+    "sha256": "e762e14d8173f144d0d094a76d10c6035882675c566d810fff9413c02a47de01",
+    "role": "core"
+  },
+  {
+    "path": "docs/original/q3/问题三_论文建模思路.md",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/问题三_论文建模思路.md",
+    "sha256": "bc4324531eb41edc789d36a454b5e830c9ed686d9a892d1cf2c44fcba71097c4",
+    "role": "original_method_note"
+  },
+  {
+    "path": "src/q3/问题三_预测与优化.ipynb",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/问题三_预测与优化.ipynb",
+    "sha256": "f1061c7018582abb7d5d76029ef1876eddc8be4414295254170535f3f106df96",
+    "role": "core"
+  },
+  {
+    "path": "results/reference/q3/图表/问题三_典型日四阶段调整图.png",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/图表/问题三_典型日四阶段调整图.png",
+    "sha256": "54ea45372901b127fc64bd2f835a3d152179de1720362fb1da958bd82b44cf04",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q3/图表/问题三_典型日四阶段调整图.svg",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/图表/问题三_典型日四阶段调整图.svg",
+    "sha256": "613b673b9d894adcf6b56213a6779d91d30cb87a8906b786f74a73307aec3bcc",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q3/图表/问题三_卡尔曼增益曲线.png",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/图表/问题三_卡尔曼增益曲线.png",
+    "sha256": "a59b75cf6232959dbfeda0fa4c99ba0bbc3c337289dfa0d6d0a3a889a85a668b",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q3/图表/问题三_卡尔曼增益曲线.svg",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/图表/问题三_卡尔曼增益曲线.svg",
+    "sha256": "22f12150926af42c389ca2953dc035a13f2b51413fc89fc9b9c1e92cb82bd9a9",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q3/图表/问题三_预报误差随提前时长.png",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/图表/问题三_预报误差随提前时长.png",
+    "sha256": "765c5fcbe4c397a8e2944556ca820db465f4d73279535c6d62ba23b54e2bf858",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q3/图表/问题三_预报误差随提前时长.svg",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/图表/问题三_预报误差随提前时长.svg",
+    "sha256": "3ec685f81c79c7da32ed3c4d5b662c38dfdd684730f45ee4b413d1722ad4d4f3",
+    "role": "reference_output"
+  },
+  {
+    "path": "src/q4/build_final_ew_notebook.py",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/build_final_ew_notebook.py",
+    "sha256": "d55d751be8674e08dacb29f67e69f899ca70aabe883fd865ef97bfa4c34c7fdf",
+    "role": "core"
+  },
+  {
+    "path": "src/q4/build_notebook.py",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/build_notebook.py",
+    "sha256": "d84d794fb60b2f6cc41cf828d8b7085a05d1e9101b74f1d2addcc8c2caaa1ba7",
+    "role": "core"
+  },
+  {
+    "path": "src/q4/draw_january_price_profile.py",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/draw_january_price_profile.py",
+    "sha256": "48762299c25d2f97bb73fc1519d604d0b70a5f17f1fff4b51eb700a70e0a2ad4",
+    "role": "core"
+  },
+  {
+    "path": "src/q4/draw_january_price_profile_two_panel.py",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/draw_january_price_profile_two_panel.py",
+    "sha256": "f2ff4bf636d9de5f6b5d57ff5717d693d22c2cb8f92b5da66f0a3004245aa8d6",
+    "role": "core"
+  },
+  {
+    "path": "results/reference/q4/EW一月选参.csv",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/EW一月选参.csv",
+    "sha256": "cc3694b93d26c46b910184ec035c92d3af2b462b5fa77480d260ed27e401e67f",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/EW与7日基线_优化费用对比.csv",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/EW与7日基线_优化费用对比.csv",
+    "sha256": "03c4f586f1a80c6a35dee48acbaba921193c0a0ef51957a6ce2e12ad42a38596",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/EW价格预测指标.csv",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/EW价格预测指标.csv",
+    "sha256": "1dacfc9b8162aaf140e6cfe1c8393b9b975da3bef9e4f9793262f9813644ff80",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/EW方案运行验证.json",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/EW方案运行验证.json",
+    "sha256": "a65c91e5759718bde7b43d2932268a4cdcafa06eee1fa74a4a7d7b24310fb387",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/EW费用核验.json",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/EW费用核验.json",
+    "sha256": "3f9c4f048e85152921f3237c7d7007c556f935a6357365ad4a81e1ec54fd5b3c",
+    "role": "reference_output"
+  },
+  {
+    "path": "src/q4/q4_ew_compare.py",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/q4_ew_compare.py",
+    "sha256": "2f67ce1092a35c25ceb190eaf14749e296068886ea969dc1f965856b3fbc60e2",
+    "role": "core"
+  },
+  {
+    "path": "src/q4/q4_pipeline.py",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/q4_pipeline.py",
+    "sha256": "fed0a773cfd1f9696502c2f9e6d99b42996ffe884fcea78a7b33b82b380a156a",
+    "role": "core"
+  },
+  {
+    "path": "src/q4/refresh_q4_figures.py",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/refresh_q4_figures.py",
+    "sha256": "353e2b5e1444a474664dc5e6c1f5a549a4ec4fdb592d2ae520a066ba990da14b",
+    "role": "core"
+  },
+  {
+    "path": "results/reference/q4/一月价格模型选参.csv",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/一月价格模型选参.csv",
+    "sha256": "7bcb0f4f7cac9906df3fc0ae462358858daa1fc80a6a6c5469a26fd3a9dca026",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/价格预测指标.csv",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/价格预测指标.csv",
+    "sha256": "d44a405846cc1884a730054773a1854d642b58d4c79609418d4d8cf1f23c6dae",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/偏相关指标.csv",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/偏相关指标.csv",
+    "sha256": "31c95a66c6c486126d980b1d9d2a5cbae1f7a2756ad6d335b1b321856e8fcda0",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/运行验证.json",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/运行验证.json",
+    "sha256": "bfd9d36074b4cbb15e8f879f6b17604c4ae4b611b6a70bf1351dc480fbb48275",
+    "role": "reference_output"
+  },
+  {
+    "path": "src/q4/问题四_EW耦合预测与优化.ipynb",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/问题四_EW耦合预测与优化.ipynb",
+    "sha256": "9742494ec010ab675b9c6d60659c6ea0b9914e05e82ab869bd82465bd3b9ff8c",
+    "role": "core"
+  },
+  {
+    "path": "docs/original/q4/问题四_EW耦合预测与优化_论文建模思路.md",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/问题四_EW耦合预测与优化_论文建模思路.md",
+    "sha256": "3c3780c49966be0b8f483b6de153d8ddbc0f0cf67e4d27cf3a46ee53fa356c9e",
+    "role": "original_method_note"
+  },
+  {
+    "path": "results/reference/q4/问题四_gamma平行消融.csv",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/问题四_gamma平行消融.csv",
+    "sha256": "b1d328b62fcb9e6ffe8a7a19bd8a3011b3f364dd2c9b17eba0111d4a3724db04",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/问题四_同类型EW费用明细.csv",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/问题四_同类型EW费用明细.csv",
+    "sha256": "80f21066393a4e24c1702573b1e9a4cf61f75596ed2788df79e4c421c0f1ec84",
+    "role": "reference_output"
+  },
+  {
+    "path": "src/q4/问题四_波动电价耦合预测与优化.ipynb",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/问题四_波动电价耦合预测与优化.ipynb",
+    "sha256": "699c325d050f0494271c7f74cad8154f628163af6c69c4c457c9f98f3a435003",
+    "role": "core"
+  },
+  {
+    "path": "results/reference/q4/问题四_费用与求解指标.csv",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/问题四_费用与求解指标.csv",
+    "sha256": "ea59bcf5b561e92ad0b268b4448ba5ece2ac64cbbedb40aae321b971ea0f304e",
+    "role": "reference_output"
+  },
+  {
+    "path": "src/q4/tests/test_q4_ew_compare.py",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/tests/test_q4_ew_compare.py",
+    "sha256": "ebf4da182515e61a95f0c3ccc1cb9a95b33186bb04cdefb7a8f672088a3c40b9",
+    "role": "core"
+  },
+  {
+    "path": "src/q4/tests/test_q4_pipeline.py",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/tests/test_q4_pipeline.py",
+    "sha256": "d484094327765b2cf7ff58e274ebfeb187cd6475ca57ef6479ee3c77fc6ab01d",
+    "role": "core"
+  },
+  {
+    "path": "results/reference/q4/图表/问题四_EW与7日基线费用对比.png",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/图表/问题四_EW与7日基线费用对比.png",
+    "sha256": "198c4df520d38dc21bf4beeea571f22c64ff390bc0e6e241b019aef5d45fc7c9",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/图表/问题四_一月电价分类型日内分布.png",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/图表/问题四_一月电价分类型日内分布.png",
+    "sha256": "9ef1af156812a80a95a902d35096c7cbb21b28b2a6d5139de97a9e15028c859d",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/图表/问题四_一月电价分类型日内分布.svg",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/图表/问题四_一月电价分类型日内分布.svg",
+    "sha256": "e9e5f99888b9bcff400ab762daaba8f57f91c4664e41e14414101c29c1f0c962",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/图表/问题四_一月电价分类型日内分布_双图无编号.png",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/图表/问题四_一月电价分类型日内分布_双图无编号.png",
+    "sha256": "d3a9939b3f6fd9b3cd24032461e075e5fed4991060874998873c1c25913fce25",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/图表/问题四_一月电价分类型日内分布_双图无编号.svg",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/图表/问题四_一月电价分类型日内分布_双图无编号.svg",
+    "sha256": "f4bea8c8516c429bfcf48d04c0fe178df3ad0036001cde01dab808c21f66c807",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/图表/问题四_一月电价日内分布.png",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/图表/问题四_一月电价日内分布.png",
+    "sha256": "0afff9e44fd7ca5a5dae27a24ebee28d11a8268dbdf9bb3231c1350e205ae83e",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/图表/问题四_一月电价日内分布.svg",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/图表/问题四_一月电价日内分布.svg",
+    "sha256": "ac03d4c4941a34dc8c0f72b344d40f2f2fb215a8bfeee3ddd7d236f3c6fbfe1a",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/图表/问题四_一月电价日内分布_验证.json",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/图表/问题四_一月电价日内分布_验证.json",
+    "sha256": "0b71525c5a46540ddb4e72aad3f15a642595d4458c2df7be819fa372e4bf2471",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/图表/问题四_典型日电价预测.png",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/图表/问题四_典型日电价预测.png",
+    "sha256": "d13675b297a3bd2606d65abdc84d753d7d9b18071c09f23bcf8e0eb00f29771b",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/图表/问题四_典型日电价预测.svg",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/图表/问题四_典型日电价预测.svg",
+    "sha256": "3ffa111961dd52a7b6bf2aaec78d07bba41262488480513af824e5742859deb9",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/图表/问题四_费用构成.png",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/图表/问题四_费用构成.png",
+    "sha256": "1049de00d405a06a1939b3f3628ea995346e3bc4d7c3515dcdfbdf20febd1127",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/q4/图表/问题四_费用构成.svg",
+    "original_path": "赛中文件/国赛依托/第四问预测+优化/图表/问题四_费用构成.svg",
+    "sha256": "6602749c74247415c20661e7746195a98290ceb793c80f10e228e435b0055c7e",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/final/result1.xlsx",
+    "original_path": "赛中文件/国赛依托/答案/result1.xlsx",
+    "sha256": "e2a3bb715aa14731697a757357efcc770f8103cc5853577bee70cc998dacfb69",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/final/result2.xlsx",
+    "original_path": "赛中文件/国赛依托/答案/result2.xlsx",
+    "sha256": "97d40d36ea196f04e442d3972a15be1e9e1cee5c11a4c354f9fb2591ce81c93b",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/final/result3.xlsx",
+    "original_path": "赛中文件/国赛依托/答案/result3.xlsx",
+    "sha256": "4a6d1f168408a693b4e88df6c173e4cbc33842261a9e893dcf9e0728b8e247fb",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/final/result4-2.xlsx",
+    "original_path": "赛中文件/国赛依托/答案/result4-2.xlsx",
+    "sha256": "4b3e03bd28a9851881faf65742f9703121a18ff9ec9de33738bc5b679c70f1a6",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/final/result4-3.xlsx",
+    "original_path": "赛中文件/国赛依托/答案/result4-3.xlsx",
+    "sha256": "15ad74bab7a6d2b3d1c326155808ec1db9684672a42295f5e5e12bf6b52abae8",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/final/题目要求汇总表.xlsx",
+    "original_path": "赛中文件/国赛依托/答案/题目要求汇总表.xlsx",
+    "sha256": "aa7e5a5ea3c424cdb252774dc570113affdc265a21400007b3732fc953ded1cb",
+    "role": "reference_output"
+  },
+  {
+    "path": "src/delivery/build_final_answers.py",
+    "original_path": "赛中文件/国赛依托/答案/复现与校验/build_final_answers.py",
+    "sha256": "5102d6969b5900ee0547f2d55cc79817085798707f57c42fa8286b9e00966790",
+    "role": "core"
+  },
+  {
+    "path": "src/delivery/clean_tiny_residuals.py",
+    "original_path": "赛中文件/国赛依托/答案/复现与校验/clean_tiny_residuals.py",
+    "sha256": "7f36e1799eb59d096c78ea64639437ca7694dc7171b9f5afcaba93fe49a1b62c",
+    "role": "core"
+  },
+  {
+    "path": "src/delivery/deep_validate.py",
+    "original_path": "赛中文件/国赛依托/答案/复现与校验/deep_validate.py",
+    "sha256": "a82c4d435d9b32c09b995a55eeeda5207efb6aa83590cb1edef3b2d3e88fd58b",
+    "role": "core"
+  },
+  {
+    "path": "src/delivery/verify_q4_runtime.py",
+    "original_path": "赛中文件/国赛依托/答案/复现与校验/verify_q4_runtime.py",
+    "sha256": "ae41b5834683ae0782576e69e7deca05f1ad96672cb62d300b2c44f54f1e2a25",
+    "role": "core"
+  },
+  {
+    "path": "results/reference/final/交付验证.json",
+    "original_path": "赛中文件/国赛依托/答案/交付验证.json",
+    "sha256": "0eb2db5c27d171ab721fcb43b19840bb1aa7d0d526a77fb0cadbd28e4f741253",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/final/残差清理报告.json",
+    "original_path": "赛中文件/国赛依托/答案/残差清理报告.json",
+    "sha256": "6b27dc9d7b2ed2de1e0ea3bebe03a37f0541f9e1b5b24a8a246d83e913990d2c",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/final/深度校验.json",
+    "original_path": "赛中文件/国赛依托/答案/深度校验.json",
+    "sha256": "e9ebddd91b325263798ea91f42e072678bfde815af99d7b3214baa3b8938c273",
+    "role": "reference_output"
+  },
+  {
+    "path": "results/reference/final/问题4独立运行验证.json",
+    "original_path": "赛中文件/国赛依托/答案/问题4独立运行验证.json",
+    "sha256": "43ceac5a4f0a8a0fbd7fccf3290ce2152b802e0b59a7ac481cb32c8802a3c2d9",
+    "role": "reference_output"
+  },
+  {
+    "path": "experiments/q3_archive/问题3_求解_旧版.ipynb",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/归档/问题3_求解_旧版.ipynb",
+    "sha256": "771cd3ce87286e067db6c613c02542dfb3087e2384aa1e01dbd54dbcddcea7d8",
+    "role": "historical_variant"
+  },
+  {
+    "path": "experiments/q3_archive/问题三_论文建模思路_修改前备份.md",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/归档/问题三_论文建模思路_修改前备份.md",
+    "sha256": "4c909499cd36da0d2a82aaef5b02328b24236a14af20efd895e6d5016dc8699e",
+    "role": "historical_variant"
+  },
+  {
+    "path": "experiments/q3_archive/问题三_论文建模思路_阶段递推版备份.md",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/归档/问题三_论文建模思路_阶段递推版备份.md",
+    "sha256": "0b5864127d093258be4017189be85c08b112e6eba26432fb54742372e46261b3",
+    "role": "historical_variant"
+  },
+  {
+    "path": "experiments/q3_archive/问题三_预测与优化_修改前备份.ipynb",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/归档/问题三_预测与优化_修改前备份.ipynb",
+    "sha256": "e38abdcb52aefb8c2d3f6417bf5b927e6c22165e8aa23418d0cabdb3b35dd112",
+    "role": "historical_variant"
+  },
+  {
+    "path": "experiments/q3_archive/问题三_预测与优化_阶段递推版备份.ipynb",
+    "original_path": "赛中文件/国赛依托/第三问预测+优化/归档/问题三_预测与优化_阶段递推版备份.ipynb",
+    "sha256": "26ca7bb49f9deb8782fce820ab7d67c36a59c817251fa66f1a725a9d5ec123fc",
+    "role": "historical_variant"
+  },
+  {
+    "path": "experiments/q1_v2/make_figures.py",
+    "original_path": "赛中文件/第一问建模_v2/make_figures.py",
+    "sha256": "84096d019edf61a4b5ac594d568e085d413998b7b9b88f00b6a0c1eeea594e38",
+    "role": "historical_variant"
+  },
+  {
+    "path": "experiments/q1_v2/sensitivity_q1.py",
+    "original_path": "赛中文件/第一问建模_v2/sensitivity_q1.py",
+    "sha256": "edf3351938e3b32343161754b8979682ef56ebcd7b63c8cfc41885c6ac0082ae",
+    "role": "historical_variant"
+  },
+  {
+    "path": "experiments/q1_v2/solve_q1.py",
+    "original_path": "赛中文件/第一问建模_v2/solve_q1.py",
+    "sha256": "03c64ad79957d1d4f6b271d3cd3061e626348aeb530ada7adf024b5e35b38f95",
+    "role": "historical_variant"
+  },
+  {
+    "path": "experiments/q1_v2/test_solve_q1.py",
+    "original_path": "赛中文件/第一问建模_v2/test_solve_q1.py",
+    "sha256": "bf529effa353f2e70ba12c6b580e347dbb3e4848b2c65b23f6e2930d654fdb4f",
+    "role": "historical_variant"
+  },
+  {
+    "path": "experiments/q1_v2/数学模型.md",
+    "original_path": "赛中文件/第一问建模_v2/数学模型.md",
+    "sha256": "900b28ed2c5706ab70a90d43c8cf227ff9fe160136433f64fe174f09507f284f",
+    "role": "historical_variant"
+  },
+  {
+    "path": "experiments/q1_v2/问题1_关键指标.json",
+    "original_path": "赛中文件/第一问建模_v2/问题1_关键指标.json",
+    "sha256": "24601289f25c4c4d809de2a0a89251b6d7a1093d9bab838ce1623f083c66e010",
+    "role": "historical_variant"
+  },
+  {
+    "path": "experiments/q1_v2/问题1_敏感性分析.json",
+    "original_path": "赛中文件/第一问建模_v2/问题1_敏感性分析.json",
+    "sha256": "d590c4946ad33fba64c26a50d18088d25e67f1d64480e46a41a57ff111b452ce",
+    "role": "historical_variant"
+  },
+  {
+    "path": "experiments/q1_v2/问题1_论文材料包.md",
+    "original_path": "赛中文件/第一问建模_v2/问题1_论文材料包.md",
+    "sha256": "50904e734ff405f14419e17584070a1769816bdf060b27ce6889e66b0535fa29",
+    "role": "historical_variant"
+  },
+  {
+    "path": "docs/feature_analysis/00_交接说明.md",
+    "original_path": "赛中文件/第二问建模_v2/00_交接说明.md",
+    "sha256": "7839f7d78332d9a60ca0bdc619afef7fd01aeb9a33e3a0511c943b72e505fea7",
+    "role": "feature_analysis"
+  },
+  {
+    "path": "docs/feature_analysis/01_特征分析结论.md",
+    "original_path": "赛中文件/第二问建模_v2/01_特征分析结论.md",
+    "sha256": "1c625f061193f331cb2330aeb051f12e5a84b8e86b5b0a3747addc71baee1a16",
+    "role": "feature_analysis"
+  },
+  {
+    "path": "docs/feature_analysis/02_特征分析数值表.xlsx",
+    "original_path": "赛中文件/第二问建模_v2/02_特征分析数值表.xlsx",
+    "sha256": "74e75f06a2f2f332c4c6011057d13c8144c48905b3c8996bd214b642b8d117e4",
+    "role": "feature_analysis"
+  },
+  {
+    "path": "docs/assets/q1/图1_典型日负载光伏与电价.png",
+    "original_path": "赛中文件/第一问插图/图1_典型日负载光伏与电价.png",
+    "sha256": "597a57586a63a47bfb32109b3764674ac898bb42c624e8baa1ee470915c3d2d1",
+    "role": "team_figure"
+  },
+  {
+    "path": "docs/assets/q1/图3_储能电量轨迹与电价.png",
+    "original_path": "赛中文件/第一问插图/图3_储能电量轨迹与电价.png",
+    "sha256": "45b7c15c0a3c1ef7b9899b95638a52516409bee42f96371c32d6cd5ebe892897",
+    "role": "team_figure"
+  },
+  {
+    "path": "docs/assets/q1/图4_与无储能方案对比.png",
+    "original_path": "赛中文件/第一问插图/图4_与无储能方案对比.png",
+    "sha256": "19863c44d7d4533615f7de386c1463c071ab1dcee19ee18cc61e142fbb78e07d",
+    "role": "team_figure"
+  },
+  {
+    "path": "docs/original/core_code_excerpt.md",
+    "original_path": "四问核心代码汇总.md",
+    "sha256": "df0330444fb60e1eec492bcedd935a1fedc56191d07c83ffadedd7bcd7b4b03b",
+    "role": "code_reading_note"
+  }
+]

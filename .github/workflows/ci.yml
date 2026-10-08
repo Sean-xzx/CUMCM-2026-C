@@ -1,0 +1,33 @@
+name: Numerical checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    env:
+      PYTHONUTF8: '1'
+      MPLBACKEND: Agg
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Install locked CPU environment
+        run: |
+          python -m venv .venv
+          .venv/Scripts/python.exe -m pip install -r requirements.txt
+          .venv/Scripts/python.exe -m pip check
+      - name: Preserved sources and documentation
+        run: |
+          .venv/Scripts/python.exe scripts/run.py check-sources
+          .venv/Scripts/python.exe scripts/check_docs.py
+      - name: Unit and integration tests
+        run: .venv/Scripts/python.exe -m pytest -q
+      - name: Standalone synthetic example
+        run: .venv/Scripts/python.exe scripts/run.py demo --out runs/ci-demo

@@ -1,0 +1,81 @@
+{
+  "result1": {
+    "sheets_ok": true,
+    "size_bytes": 8830,
+    "periods": 144,
+    "required_nonempty": true,
+    "nonnegative": true
+  },
+  "result2": {
+    "sheets_ok": true,
+    "size_bytes": 600783,
+    "计划购电量": {
+      "dates_ok": true,
+      "required_blank": 0,
+      "negative": 0,
+      "max_total_error": 5.820766091346741e-11
+    },
+    "storage_rows": 2004,
+    "storage_expected_rows": 2004,
+    "emergency_rows": 1002,
+    "emergency_expected_rows": 1002
+  },
+  "result3": {
+    "sheets_ok": true,
+    "size_bytes": 1076348,
+    "计划购电量": {
+      "dates_ok": true,
+      "required_blank": 0,
+      "negative": 0,
+      "max_total_error": 5.820766091346741e-11
+    },
+    "调整购电量": {
+      "dates_ok": true,
+      "required_blank": 0,
+      "negative": 0,
+      "max_total_error": 5.820766091346741e-11
+    },
+    "storage_rows": 2004,
+    "storage_expected_rows": 2004,
+    "emergency_rows": 1002,
+    "emergency_expected_rows": 1002
+  },
+  "result4-2": {
+    "sheets_ok": true,
+    "size_bytes": 572003,
+    "计划购电量": {
+      "dates_ok": true,
+      "required_blank": 0,
+      "negative": 0,
+      "max_total_error": 7.275957614183426e-11
+    },
+    "storage_rows": 2004,
+    "storage_expected_rows": 2004,
+    "emergency_rows": 1002,
+    "emergency_expected_rows": 1002
+  },
+  "result4-3": {
+    "sheets_ok": true,
+    "size_bytes": 1080808,
+    "计划购电量": {
+      "dates_ok": true,
+      "required_blank": 0,
+      "negative": 0,
+      "max_total_error": 5.820766091346741e-11
+    },
+    "调整购电量": {
+      "dates_ok": true,
+      "required_blank": 0,
+      "negative": 0,
+      "max_total_error": 6.548361852765083e-11
+    },
+    "storage_rows": 2004,
+    "storage_expected_rows": 2004,
+    "emergency_rows": 1002,
+    "emergency_expected_rows": 1002
+  },
+  "q2_lp_all_success": true,
+  "q2_soc_bounds": true,
+  "q2_soc_continuity": true,
+  "required_tables_exists": true
+}

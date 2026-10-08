@@ -1,0 +1,25 @@
+{
+  "price_gamma": 1.0,
+  "ridge_alpha": 1.0,
+  "q2_lp_all_success": true,
+  "q3_lp_all_success": true,
+  "q2_soc_bounds": true,
+  "q3_soc_bounds": true,
+  "q2_soc_continuity": true,
+  "q3_soc_continuity": true,
+  "q2_cost_identity": true,
+  "q2_terminal_soc_at_lower_share": 1.0,
+  "q3_terminal_soc_at_lower_share": 1.0,
+  "q3_cost_identity": true,
+  "runtime_seconds": 327.6638677120209,
+  "result4-2": {
+    "sheet_names_match": true,
+    "dates_ok": true,
+    "required_nonempty": true
+  },
+  "result4-3": {
+    "sheet_names_match": true,
+    "dates_ok": true,
+    "required_nonempty": true
+  }
+}

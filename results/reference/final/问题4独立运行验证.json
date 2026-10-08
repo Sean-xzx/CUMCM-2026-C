@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "same_type_ew_exact": true,
+    "future_blind": true,
+    "q2_lp_all_success": true,
+    "q3_lp_all_success": true,
+    "q2_soc_bounds": true,
+    "q3_soc_bounds": true,
+    "q2_soc_continuity": true,
+    "q3_soc_continuity": true,
+    "q2_cost_identity": true,
+    "q3_cost_identity": true,
+    "result42_matches_runtime": true,
+    "result43_plan_matches_runtime": true,
+    "result43_adjusted_matches_runtime": true
+  },
+  "cost_q42": {
+    "计划购电费_元": 13826570.088866172,
+    "紧急购电费_元": 482205.4399519338,
+    "总费用_元": 14308775.528818106
+  },
+  "cost_q43": {
+    "计划购电费_元": 13092421.23288237,
+    "调增费_元": 599749.710175657,
+    "调减退费_元": 78301.32902975698,
+    "紧急购电费_元": 240748.6650649408,
+    "总费用_元": 13854618.27909321
+  }
+}

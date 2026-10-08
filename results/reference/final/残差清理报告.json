@@ -1,0 +1,40 @@
+{
+  "result1": {
+    "计划购电量": {
+      "tiny_zeroed": 0,
+      "max_total_drift_before_fix": 0.0
+    }
+  },
+  "result2": {
+    "计划购电量": {
+      "tiny_zeroed": 0,
+      "max_total_drift_before_fix": 5.820766091346741e-11
+    }
+  },
+  "result3": {
+    "计划购电量": {
+      "tiny_zeroed": 0,
+      "max_total_drift_before_fix": 5.820766091346741e-11
+    },
+    "调整购电量": {
+      "tiny_zeroed": 279,
+      "max_total_drift_before_fix": 5.820766091346741e-11
+    }
+  },
+  "result4-2": {
+    "计划购电量": {
+      "tiny_zeroed": 0,
+      "max_total_drift_before_fix": 7.275957614183426e-11
+    }
+  },
+  "result4-3": {
+    "计划购电量": {
+      "tiny_zeroed": 0,
+      "max_total_drift_before_fix": 5.820766091346741e-11
+    },
+    "调整购电量": {
+      "tiny_zeroed": 263,
+      "max_total_drift_before_fix": 5.820766091346741e-11
+    }
+  }
+}

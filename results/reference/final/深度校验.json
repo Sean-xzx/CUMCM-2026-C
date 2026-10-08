@@ -1,0 +1,161 @@
+{
+  "result1": {
+    "sheet_names_exact": true,
+    "headers_and_time_labels_exact": true,
+    "144_values": true,
+    "values_finite_nonnegative": true,
+    "sequential_slot_mapping_max_abs_error": 4.547473508864641e-13,
+    "lp_success": true,
+    "storage_interface_limit_ok": true,
+    "soc_bounds_ok": true
+  },
+  "result2": {
+    "sheet_names_exact": true,
+    "headers_exact": {
+      "计划购电量": true,
+      "充放电量": true,
+      "紧急购电量": true
+    },
+    "计划购电量": {
+      "rows": 334,
+      "dates_exact": true,
+      "values_finite_nonnegative": true,
+      "daily_total_max_abs_error": 5.820766091346741e-11,
+      "formula_cells": 0
+    },
+    "充放电量": {
+      "rows": 2004,
+      "rows_exact": true,
+      "dates_exact": true,
+      "interval_labels_exact": true,
+      "charge_discharge_finite_nonnegative": true,
+      "max_4h_throughput_kWh": 13666.055312426844,
+      "power_limit_ok": true,
+      "soc_endpoints_in_bounds": true,
+      "soc_daily_continuity_max_abs_error": 0.0
+    },
+    "紧急购电量": {
+      "rows": 1002,
+      "rows_exact": true,
+      "dates_exact": true,
+      "three_rows_per_date_pattern": true,
+      "interval_amount_pair_mismatches": 0
+    }
+  },
+  "result3": {
+    "sheet_names_exact": true,
+    "headers_exact": {
+      "计划购电量": true,
+      "调整购电量": true,
+      "充放电量": true,
+      "紧急购电量": true
+    },
+    "计划购电量": {
+      "rows": 334,
+      "dates_exact": true,
+      "values_finite_nonnegative": true,
+      "daily_total_max_abs_error": 5.820766091346741e-11,
+      "formula_cells": 0
+    },
+    "调整购电量": {
+      "rows": 334,
+      "dates_exact": true,
+      "values_finite_nonnegative": true,
+      "daily_total_max_abs_error": 5.820766091346741e-11,
+      "formula_cells": 0
+    },
+    "充放电量": {
+      "rows": 2004,
+      "rows_exact": true,
+      "dates_exact": true,
+      "interval_labels_exact": true,
+      "charge_discharge_finite_nonnegative": true,
+      "max_4h_throughput_kWh": 13594.750290386744,
+      "power_limit_ok": true,
+      "soc_endpoints_in_bounds": true,
+      "soc_daily_continuity_max_abs_error": 0.0
+    },
+    "紧急购电量": {
+      "rows": 1002,
+      "rows_exact": true,
+      "dates_exact": true,
+      "three_rows_per_date_pattern": true,
+      "interval_amount_pair_mismatches": 0
+    }
+  },
+  "result4-2": {
+    "sheet_names_exact": true,
+    "headers_exact": {
+      "计划购电量": true,
+      "充放电量": true,
+      "紧急购电量": true
+    },
+    "计划购电量": {
+      "rows": 334,
+      "dates_exact": true,
+      "values_finite_nonnegative": true,
+      "daily_total_max_abs_error": 7.275957614183426e-11,
+      "formula_cells": 0
+    },
+    "充放电量": {
+      "rows": 2004,
+      "rows_exact": true,
+      "dates_exact": true,
+      "interval_labels_exact": true,
+      "charge_discharge_finite_nonnegative": true,
+      "max_4h_throughput_kWh": 14101.104129815112,
+      "power_limit_ok": true,
+      "soc_endpoints_in_bounds": true,
+      "soc_daily_continuity_max_abs_error": 0.0
+    },
+    "紧急购电量": {
+      "rows": 1002,
+      "rows_exact": true,
+      "dates_exact": true,
+      "three_rows_per_date_pattern": true,
+      "interval_amount_pair_mismatches": 0
+    }
+  },
+  "result4-3": {
+    "sheet_names_exact": true,
+    "headers_exact": {
+      "计划购电量": true,
+      "调整购电量": true,
+      "充放电量": true,
+      "紧急购电量": true
+    },
+    "计划购电量": {
+      "rows": 334,
+      "dates_exact": true,
+      "values_finite_nonnegative": true,
+      "daily_total_max_abs_error": 5.820766091346741e-11,
+      "formula_cells": 0
+    },
+    "调整购电量": {
+      "rows": 334,
+      "dates_exact": true,
+      "values_finite_nonnegative": true,
+      "daily_total_max_abs_error": 5.820766091346741e-11,
+      "formula_cells": 0
+    },
+    "充放电量": {
+      "rows": 2004,
+      "rows_exact": true,
+      "dates_exact": true,
+      "interval_labels_exact": true,
+      "charge_discharge_finite_nonnegative": true,
+      "max_4h_throughput_kWh": 14120.73881894607,
+      "power_limit_ok": true,
+      "soc_endpoints_in_bounds": true,
+      "soc_daily_continuity_max_abs_error": 0.0
+    },
+    "紧急购电量": {
+      "rows": 1002,
+      "rows_exact": true,
+      "dates_exact": true,
+      "three_rows_per_date_pattern": true,
+      "interval_amount_pair_mismatches": 0
+    }
+  },
+  "all_checks_passed": true
+}

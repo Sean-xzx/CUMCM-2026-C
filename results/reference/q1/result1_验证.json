@@ -1,0 +1,10 @@
+{
+  "output": "C:\\Users\\12055\\Desktop\\答案\\result1.xlsx",
+  "solver_status": "Optimal",
+  "periods": 144,
+  "total_purchase_kWh": 59482.69899835391,
+  "total_cost_yuan": 35126.94858928964,
+  "max_constraint_residual_kWh": 9.094947017729282e-13,
+  "time_slot_rule": "第i个终点标签对应第i个实际决策时段；模板错位标签不改，数值按位置写入",
+  "power_limit_assumption": "按论文式(10)，储能外部接口侧充电量与放电量之和每10分钟不超过5000/6 kWh"
+}
